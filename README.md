@@ -69,7 +69,9 @@ Visit: http://localhost:5005
 1 Build Docker Image
 '''
 -docker build -t banking-app .
+'''
 2 Run Container
+'''
 -docker run -p 5005:5005 banking-app
 ''' 
 ## 🧪 Features in Development
