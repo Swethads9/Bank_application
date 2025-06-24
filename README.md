@@ -68,11 +68,11 @@ Visit: http://localhost:5005
 ## Option 2: Using Docker
 1 Build Docker Image
 '''
-docker build -t banking-app .
+-docker build -t banking-app .
 ''' 
 2 Run Container
 '''
-docker run -p 5005:5005 banking-app
+-docker run -p 5005:5005 banking-app
 ''' 
 ## 🧪 Features in Development
 -Transaction history (Statement route placeholder)
@@ -82,9 +82,9 @@ docker run -p 5005:5005 banking-app
 -User authentication.
 ## 📁 File Structure
 '''
-├── app.py         # Main Flask application
-├── Dockerfile     # Docker setup for containerization
-├── bank.db        # SQLite DB file (created at runtime)
+-├── app.py         # Main Flask application
+-├── Dockerfile     # Docker setup for containerization
+-├── bank.db        # SQLite DB file (created at runtime)
 '''
 
 
